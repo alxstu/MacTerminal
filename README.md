@@ -1,3 +1,8 @@
+Option to run with iTerm2 nightly builds.
+
+```"terminal"   :  "itermNightly"```
+
+===
 [![endorse](https://api.coderwall.com/afterdesign/endorsecount.png)](https://coderwall.com/afterdesign)
 
 # Terminal plugin for sublime

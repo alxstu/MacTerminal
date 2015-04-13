@@ -118,10 +118,8 @@ def run_command(path):
     # get osascript from settings or just use default value
     command.append(settings.get("osascript") or "/usr/bin/osascript")
 
-    if '10.10' in platform.mac_ver()[0]:
-        ext_language = 'js'
-    else:
-        ext_language = 'scpt'
+    ext_language = 'scpt'
+
 
     # set path and terminal
     applescript_path = "{packages_dir}/MacTerminal/macterminal_{terminal_name}.{ext}".format(
