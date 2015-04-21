@@ -17,7 +17,7 @@ on run argv
             keystroke "t" using command down
         end tell
 
-        tell current session of first terminal window
+        tell current session of first window
                     write text "cd " & folderName
             write text "clear"
         end tell
